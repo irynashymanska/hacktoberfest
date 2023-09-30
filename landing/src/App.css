@@ -37,7 +37,7 @@ header {
   flex: 1;
 }
 
- .boldText {
+.boldText {
   color: var(--blue-2);
   font-size: 18px;
   font-weight: 700;
@@ -48,6 +48,7 @@ header {
 .secondSection {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 30px;
 }
 
 .infoBold {
@@ -55,7 +56,7 @@ header {
   font-family: var(--font-Raleway);
   font-size: 10px;
   font-weight: 500;
-  padding:0;
+  padding: 0;
   word-wrap: break-word;
 }
 
@@ -106,12 +107,22 @@ header {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  /* Makes sure the content takes at least the full viewport height. */
 }
 
 .content {
   flex: 1;
-  /* Allows the content to grow and push the footer to the bottom. */
+}
+
+.moreInfo {
+  margin-top: 17px;
+  color: var(--primary-color);
+  font-size: 16px;
+  font-family: var(--font-Raleway);
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0.80px;
+  word-wrap: break-word;
+  text-align: center;
 }
 
 .footer {
@@ -122,4 +133,21 @@ header {
   text-align: center;
   font-size: 7px;
   word-wrap: break-word
+}
+
+.btn-link {
+  color: #14596B;
+  font-size: 16px;
+  font-family: 'Anonymous Pro, sans-serif';
+  font-weight: 700;
+  letter-spacing: 0.80px;
+  word-wrap: break-word;
+  padding: 10px;
+  background: #FFFEFF;
+  border-radius: 12px;
+  border: 1px #B2E3F0 solid;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
 }

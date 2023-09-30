@@ -46,7 +46,6 @@ const headerContainer = {
 };
 
 const logoContainer = {
-  
   position: 'relative',
   background: 'rgba(255, 255, 255, 0)',
 };
