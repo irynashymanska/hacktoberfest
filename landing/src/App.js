@@ -5,6 +5,7 @@ import './App.css';
 import Footer from './components/Footer';
 import Header from './components/Header';
 import Years from './components/Years';
+import ActionButton from './components/ActionButton';
 import ParticipantsSection from './components/ParticipantsSection';
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
         <HacktoberfestInfo />
         <ParticipantsSection />
         <Years />
+        <ActionButton />
       </div>
       <Footer />
     </div>
@@ -56,6 +58,11 @@ const navigateToWebsite = () => {
   window.location.href = url;
 };
 
+const navigateToRegistration = () => {
+  const url = 'https://1qm8mu6k7oi.typeform.com/to/Mt5H8rcT?fbclid=IwAR3EQ5WxlBK96gxjZo7e-BLnTu4_WG6JuEE9s5eK_9q02C59qKzq3kC7qlI&typeform-source=l.facebook.com';
+  window.location.href = url;
+};
+
 function FirstSection() {
   return (
     <div className="firstSection">
@@ -81,7 +88,7 @@ function CallToAction() {
   return (
     <div className="secondSection">
     <section className="cta column">
-      <button className="cta-button">зареєструватись</button>
+      <button className="cta-button" onClick={navigateToRegistration}>зареєструватись</button>
     </section>
     <section className="column" style={{ marginLeft: '17px' }}>
     <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
