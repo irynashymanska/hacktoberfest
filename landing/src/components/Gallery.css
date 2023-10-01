@@ -1,0 +1,50 @@
+/* Gallery.css */
+.gallery-container {
+    width: 100%;
+    height: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    overflow-x: auto; /* Enable horizontal scrolling */
+  }
+  
+  .image-list {
+    display: flex;
+    gap: 7px;
+  }
+  
+  .gallery-item {
+    padding-top: 5px;
+    padding-bottom: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+    background: white;
+    border-radius: 12px;
+    border: 1px #B2E3F0 solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+  }
+  
+  .image-container {
+    width: 100px;
+    height: auto;
+    border-radius: 12px;
+    overflow: hidden;
+  }
+  
+  .years-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .year-label {
+    color: #14596B;
+    font-size: 7px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    word-wrap: break-word;
+  }
+  

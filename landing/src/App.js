@@ -4,6 +4,8 @@ import React from 'react';
 import './App.css';
 import Footer from './components/Footer';
 import Header from './components/Header';
+import Years from './components/Years';
+import ParticipantsSection from './components/ParticipantsSection';
 
 function App() {
   return (
@@ -12,7 +14,9 @@ function App() {
         <Header />
         <FirstSection />
         <CallToAction />
-        < HacktoberfestInfo />
+        <HacktoberfestInfo />
+        <ParticipantsSection />
+        <Years />
       </div>
       <Footer />
     </div>
@@ -39,13 +43,18 @@ function HacktoberfestInfo() {
         </div>
         <div className='moreInfo'>
           <p>Більше про всесвітній проект можна дізнатись тут:</p>
-          <button className="btn-link">hacktoberfest.com</button>
+          <button className="btn-link" onClick={navigateToWebsite}>hacktoberfest.com</button>
      
         </div>
       </div>
     </div>
   );
 }
+
+const navigateToWebsite = () => {
+  const url = 'https://hacktoberfest.com/';
+  window.location.href = url;
+};
 
 function FirstSection() {
   return (
@@ -87,7 +96,7 @@ function CallToAction() {
 
     <div style={{ display: 'flex', alignItems: 'center', gap: 10, marginTop: '7px' }}>
       <div style={{ display: 'flex', alignItems: 'center' }}>
-        <img src="/Vector (1).svg" style={{ marginRight: 10 }} />
+        <img src="/Vector (3).svg" style={{ marginRight: 10 }} />
         <div style={{ color: '#2A5769', fontFamily: 'Raleway' }}>
           <div style={{ fontSize: 10, fontWeight: '600', wordWrap: 'break-word' }}>м. Львів, Козельницька 2а</div>
           <div className="infoRegular">Факультет прикладних наук УКУ</div>
