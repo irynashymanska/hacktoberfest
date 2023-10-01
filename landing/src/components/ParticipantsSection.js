@@ -22,7 +22,7 @@ function ParticipantsSection() {
 function CenteredImage() {
     return (
         <div className="center-div">
-            <img src="/1.svg" alt="iPad" />
+            <img src="./1.svg" alt="iPad" />
         </div>
     );
 }

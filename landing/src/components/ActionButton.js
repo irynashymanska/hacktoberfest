@@ -44,7 +44,7 @@ function ActionButton() {
                 <span style={subTitleStyle}>Зареєструватись на Hacktoberfest у Львові 2023</span>
             </div>
             <div style={rightColumnStyle}>
-                <div onClick={navigateToRegistration} style={{ width: '100%', height: '100%', padding: 18, background: '#2A5769', borderRadius: 12, justifyContent: 'center', alignItems: 'center', gap: 18, display: 'inline-flex' }}>
+                <div onClick={navigateToRegistration} className="actionButton"style={{ width: '100%', height: '100%', padding: 18, borderRadius: 12, justifyContent: 'center', alignItems: 'center', gap: 18, display: 'inline-flex' }}>
                     <div style={{ color: '#EFEDEF', fontSize: 10, fontFamily: 'Montserrat', fontWeight: '700', textTransform: 'uppercase', wordWrap: 'break-word' }}>зареєструватись</div>
                 </div>
             </div>

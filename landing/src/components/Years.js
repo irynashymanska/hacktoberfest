@@ -31,11 +31,11 @@ function Gallery() {
 
 function generateGalleryItems() {
     const yearData = [
-        { year: 2021, imageUrl: '/2021.png', url: 'https://www.facebook.com/events/%D0%BA%D0%BE%D0%B7%D0%B5%D0%BB%D1%8C%D0%BD%D0%B8%D1%86%D1%8C%D0%BA%D0%B0-%D0%B2%D1%83%D0%BB%D0%B8%D1%86%D1%8F-2-%D0%BB%D1%8C%D0%B2%D1%96%D0%B2-79026-%D1%83%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D0%B0/hacktoberfest-lviv-2021/351384380003855/' },
-        { year: 2020, imageUrl: '/2020.png', url: 'https://example.com/2020' },
-        { year: 2019, imageUrl: '/2019.png', url: 'https://www.facebook.com/events/509578022948163/?active_tab=about' },
-        { year: 2018, imageUrl: '/2018.png', url: 'https://example.com/2018' },
-        { year: 2017, imageUrl: '/2017.png', url: 'https://example.com/2017' },
+        { year: 2021, imageUrl: './2021.png', url: 'https://www.facebook.com/events/%D0%BA%D0%BE%D0%B7%D0%B5%D0%BB%D1%8C%D0%BD%D0%B8%D1%86%D1%8C%D0%BA%D0%B0-%D0%B2%D1%83%D0%BB%D0%B8%D1%86%D1%8F-2-%D0%BB%D1%8C%D0%B2%D1%96%D0%B2-79026-%D1%83%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D0%B0/hacktoberfest-lviv-2021/351384380003855/' },
+        { year: 2020, imageUrl: './2020.png', url: 'https://www.facebook.com/events/1481060418756600/?acontext=%7B%22event_action_history%22%3A[%7B%22extra_data%22%3A%22%22%2C%22mechanism%22%3A%22left_rail%22%2C%22surface%22%3A%22bookmark%22%7D%2C%7B%22extra_data%22%3A%22%22%2C%22mechanism%22%3A%22calendar_hosting_past_events_unit%22%2C%22surface%22%3A%22bookmark_calendar%22%7D]%2C%22ref_notif_type%22%3Anull%7D' },
+        { year: 2019, imageUrl: './2019.png', url: 'https://www.facebook.com/events/509578022948163/?active_tab=about' },
+        { year: 2018, imageUrl: './2018.png', url: 'https://www.facebook.com/events/2180407068873890/?acontext=%7B%22event_action_history%22%3A[%7B%22extra_data%22%3A%22%22%2C%22mechanism%22%3A%22left_rail%22%2C%22surface%22%3A%22bookmark%22%7D%2C%7B%22extra_data%22%3A%22%22%2C%22mechanism%22%3A%22calendar_hosting_past_events_unit%22%2C%22surface%22%3A%22bookmark_calendar%22%7D]%2C%22ref_notif_type%22%3Anull%7D' },
+        { year: 2017, imageUrl: './2017.png', url: 'https://www.facebook.com/events/854757391360303/?acontext=%7B%22event_action_history%22%3A[%7B%22extra_data%22%3A%22%22%2C%22mechanism%22%3A%22left_rail%22%2C%22surface%22%3A%22bookmark%22%7D%2C%7B%22extra_data%22%3A%22%22%2C%22mechanism%22%3A%22calendar_hosting_past_events_unit%22%2C%22surface%22%3A%22bookmark_calendar%22%7D]%2C%22ref_notif_type%22%3Anull%7D' },
     ];
 
     return yearData.map((data, index) => (
@@ -66,13 +66,13 @@ function ImageGallery() {
 
             <img
                 style={{ width: '100%', height: 145, borderRadius: 12 }}
-                src="/image 13.png"
+                src="./image 13.png"
                 alt="Image 1"
             />
 
             <img
                 style={{ width: '100%', height: 145, borderRadius: 12 }}
-                src="/image18.png"
+                src="./image18.png"
                 alt="Image 2"
             />
             <img
@@ -81,7 +81,7 @@ function ImageGallery() {
                     height: 145,
                     borderRadius: 12,
                 }}
-                src="/image 15.png"
+                src="./image 15.png"
                 alt="Image 3"
             />
         </div>
@@ -106,17 +106,17 @@ function SmallImageGallery() {
         >
             <img
                 style={{ width: '100%', height: 95, borderRadius: 12 }}
-                src="/image 17.png"
+                src="./image 17.png"
                 alt="Image 1"
             />
             <img
                 style={{ width: '100%', height: 95, borderRadius: 12 }}
-                src="/image 14.png"
+                src="./image 14.png"
                 alt="Image 2"
             />
             <img
                 style={{ width: '100%', height: 95, borderRadius: 12 }}
-                src="/image 16.png"
+                src="./image 16.png"
                 alt="Image 3"
             />
         </div>

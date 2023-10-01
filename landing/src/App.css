@@ -100,8 +100,14 @@ header {
   justify-content: center;
   align-items: center;
 }
+.actionButton{
+  background: var(--primary-color);
+  cursor: pointer;
+}
 
-.cta-button:hover {}
+.cta-button:hover, .cta-button:focus, .actionButton:hover, .actionButton:focus {
+  background-color: #4188a4;
+}
 
 .App {
   display: flex;

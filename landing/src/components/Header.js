@@ -6,7 +6,7 @@ function Header() {
       <div style={logoContainer}>
         <div style={logoElement}></div>
         <img
-          src="/logo.svg"
+          src="./logo.svg"
           alt="Logo"
           style={logoImage}
         />
@@ -14,7 +14,7 @@ function Header() {
       </div>
       <div style={logoElement}></div>
         <img
-          src="/hf10_icon.png"
+          src="./hf10_icon.png"
           alt="Logo"
           style={logoImage}
         />
