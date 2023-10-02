@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/hacktoberfest/static/css/main.a9ea5285.css",
-    "main.js": "/hacktoberfest/static/js/main.99a30ebd.js",
+    "main.css": "/hacktoberfest/static/css/main.1c7d6185.css",
+    "main.js": "/hacktoberfest/static/js/main.28b796cf.js",
     "static/js/787.28525a86.chunk.js": "/hacktoberfest/static/js/787.28525a86.chunk.js",
     "index.html": "/hacktoberfest/index.html",
-    "main.a9ea5285.css.map": "/hacktoberfest/static/css/main.a9ea5285.css.map",
-    "main.99a30ebd.js.map": "/hacktoberfest/static/js/main.99a30ebd.js.map",
+    "main.1c7d6185.css.map": "/hacktoberfest/static/css/main.1c7d6185.css.map",
+    "main.28b796cf.js.map": "/hacktoberfest/static/js/main.28b796cf.js.map",
     "787.28525a86.chunk.js.map": "/hacktoberfest/static/js/787.28525a86.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a9ea5285.css",
-    "static/js/main.99a30ebd.js"
+    "static/css/main.1c7d6185.css",
+    "static/js/main.28b796cf.js"
   ]
 }
