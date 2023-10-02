@@ -63,7 +63,7 @@ header {
 .infoRegular {
   color: var(--primary-color);
   font-family: var(--font-Raleway);
-  font-size: 7px;
+  font-size: 9px;
   font-weight: 400;
   word-wrap: break-word
 }
@@ -164,4 +164,10 @@ header {
   align-items: center;
   width: 100%;
   height: 100%;
+  position: relative;
+}
+
+.overlay-image {
+  position: absolute;
+  z-index: 2;
 }

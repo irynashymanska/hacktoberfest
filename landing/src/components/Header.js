@@ -1,6 +1,8 @@
-import React from 'react';
+import React, { useState } from 'react';
+
 
 function Header() {
+
   return (
     <div style={headerContainer}>
       <div style={logoContainer}>
@@ -21,7 +23,7 @@ function Header() {
 
       <div style={contactContainer}>
         <div style={contactText}>Контакти</div>
-        <div style={contactLines}>
+        <div style={contactLines}  > 
           <div style={contactLine}></div>
           <div style={contactLine}></div>
           <div style={contactLine}></div>
@@ -33,6 +35,7 @@ function Header() {
     </div>
   );
 }
+
 
 const headerContainer = {
   width: '100%',

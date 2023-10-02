@@ -22,8 +22,10 @@ function ParticipantsSection() {
 function CenteredImage() {
     return (
         <div className="center-div">
-            <img src="./1.svg" alt="iPad" />
+            <img src="./image 30.png" alt="Background" />
+            <img src="./1.svg" alt="iPad" className="overlay-image" />
         </div>
     );
+  
 }
 export default ParticipantsSection;

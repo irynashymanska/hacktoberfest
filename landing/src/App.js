@@ -96,7 +96,7 @@ function CallToAction() {
       <div style={{ display: 'flex', alignItems: 'center' }}>
         <img src="./Vector (1).svg" style={{ marginRight: 10 }} />
         <div style={{ color: '#2A5769', fontFamily: 'Raleway' }}>
-          <div style={{ fontSize: 10, fontWeight: '600', wordWrap: 'break-word' }}>28 жовтня</div>
+          <div style={{ fontSize: 12, fontWeight: '600', wordWrap: 'break-word' }}>28 жовтня</div>
           <div className="infoRegular">13:00 - 19:00</div>
         </div>
       </div>
@@ -106,7 +106,7 @@ function CallToAction() {
       <div style={{ display: 'flex', alignItems: 'center' }}>
         <img src="./Vector (3).svg" style={{ marginRight: 10 }} />
         <div style={{ color: '#2A5769', fontFamily: 'Raleway' }}>
-          <div style={{ fontSize: 10, fontWeight: '600', wordWrap: 'break-word' }}>м. Львів, Козельницька 2а</div>
+          <div style={{ fontSize: 12, fontWeight: '600', wordWrap: 'break-word' }}>м. Львів, Козельницька 2а</div>
           <div className="infoRegular">Факультет прикладних наук УКУ</div>
         </div>
       </div>
@@ -119,7 +119,7 @@ function CallToAction() {
 
 function Partners() {
  return (
-  <div style={{ padding: 15, background: 'rgba(178, 227, 240, 0.20)', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'inline-flex'}}>
+  <div style={{ width: '100%', padding: 15, background: 'rgba(178, 227, 240, 0.20)', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'inline-flex'}}>
     <div style={{flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 15, display: 'flex'}}>
         <div style={{height: 75, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 7, display: 'flex'}}>
             <div style={{color: '#33B6D8', fontSize: 10, fontFamily: 'Montserrat', fontWeight: '700', textTransform: 'uppercase', letterSpacing: 1.50, wordWrap: 'break-word'}}>про партнерів</div>
@@ -138,14 +138,7 @@ function Partners() {
         <div style={{height: 32, borderBottom: '1px #B2E3F0 solid', justifyContent: 'flex-start', alignItems: 'center', gap: 10, display: 'flex'}}>
             <div style={{color: '#33B6D8', fontSize: 10, fontFamily: 'Montserrat', fontWeight: '400', textTransform: 'uppercase', letterSpacing: 1.85, wordWrap: 'break-word'}}>Всесвітні  організатори:</div>
         </div>
-        <div >
-            <div style={{width: 36, height: 9.96, left: 35, top: 0, position: 'absolute', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
-                <div style={{width: 13.03, height: 9.25, background: '#2A5769'}}></div>
-                <div style={{width: 34.46, height: 6.28, background: '#2A5769'}}></div>
-            </div>
-            <div style={{width: 37.08, height: 26.89, left: 0, top: 5, position: 'absolute', background: '#0080FF'}}></div>
-            <img style={{width: 29, height: 16, left: 42, top: 16, position: 'absolute'}} src="./image 24.png" />
-        </div>
+      
     </div>
     <img style={{width: 330, height: 94.74}} src="./hf10_horz.png" />
 </div>
